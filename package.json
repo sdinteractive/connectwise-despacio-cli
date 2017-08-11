@@ -2,12 +2,12 @@
   "name": "connectwise-despacio",
   "version": "1.0.0",
   "description": "Dispatching tool for ConnectWise projects.",
-  "main": "bin/cli.js",
+  "main": "index.js",
   "bin": {
-    "connectwise-despacio": "bin/cli.js"
+    "connectwise-despacio": "index.js"
   },
   "scripts": {
-    "start": "node bin/cli.js"
+    "start": "node index.js"
   },
   "author": "Todd Christensen <tchristensen@somethingdigital.com>",
   "license": "ISC",

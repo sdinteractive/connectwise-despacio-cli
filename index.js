@@ -1,7 +1,7 @@
 'use strict';
 
 const ConnectWiseRest = require('connectwise-rest');
-const opts = require('../config.json').rest;
+const opts = require('./config.json').rest;
 const cw = new ConnectWiseRest(opts);
 
 const Existing = require('@sdinteractive/connectwise-despacio-lib').Existing;

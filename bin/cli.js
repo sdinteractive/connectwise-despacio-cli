@@ -4,8 +4,8 @@ const ConnectWiseRest = require('connectwise-rest');
 const opts = require('../config.json').rest;
 const cw = new ConnectWiseRest(opts);
 
-const Existing = require('../src/existing');
-const dispatch = require('../src/dispatch');
+const Existing = require('@sdinteractive/connectwise-despacio-lib').Existing;
+const dispatch = require('@sdinteractive/connectwise-despacio-lib').dispatch;
 
 const params = {
     // Member to dispatch.

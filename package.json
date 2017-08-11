@@ -12,6 +12,7 @@
   "author": "Todd Christensen <tchristensen@somethingdigital.com>",
   "license": "ISC",
   "dependencies": {
+    "@sdinteractive/connectwise-despacio-lib": "^2.1.1",
     "connectwise-rest": "0.0.12",
     "moment": "2.18.1",
     "moment-timezone": "0.5.13",

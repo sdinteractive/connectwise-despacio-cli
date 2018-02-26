@@ -2,7 +2,7 @@
 
 const ConnectWiseRest = require('connectwise-rest');
 const opts = require('./config.json').rest;
-const cw = new ConnectWiseRest(opts);
+const cw = new ConnectWiseRest({ ...opts, timeout: 120000 });
 
 const Existing = require('@sdinteractive/connectwise-despacio-lib').Existing;
 const dispatch = require('@sdinteractive/connectwise-despacio-lib').dispatch;
